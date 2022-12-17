@@ -1,0 +1,232 @@
+@import url("../css/bootstrap-grid.min.css");
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.row-vertical-center {
+  align-items: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Work Sans";
+  font-weight: normal;
+  font-size: 17px;
+  letter-spacing: 0.06em;
+  line-height: 26px;
+  color: #535353;
+  margin: 0px;
+
+  header#Header {
+    padding: 20px 0px;
+  }
+
+  section#Banner {
+    background: #f4f4f4;
+    padding: 50px 0px;
+
+    h2 {
+      font-weight: 600;
+      font-size: 40px;
+      letter-spacing: 0.06em;
+      line-height: 57px;
+      text-align: left;
+      color: #82b011;
+      width: 80%;
+
+      span {
+        color: #686868;
+      }
+    }
+
+    .btn {
+      width: 309px;
+      height: 64px;
+      border-radius: 9px;
+      background: #a7d82f;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  section#Info {
+    padding: 50px 0px;
+    .item-info {
+      display: flex;
+      .icon {
+        width: 70px;
+        padding-right: 20px;
+        box-sizing: border-box;
+      }
+      .detalhes {
+        h2 {
+          margin: 0px;
+          padding: 0px;
+
+          font-family: "Work Sans";
+          font-weight: 400;
+          font-size: 18px;
+          letter-spacing: 0.12em;
+          line-height: 30px;
+          text-align: left;
+          color: #1b1b1b;
+        }
+        p {
+          color: #535353;
+        }
+      }
+    }
+  }
+
+  section#Produtos {
+    .title {
+      width: 63%;
+      margin: auto;
+      padding-bottom: 50px;
+
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+
+      h2 {
+        font-family: "Work Sans";
+        font-weight: 500;
+        font-size: 40px;
+        letter-spacing: 0.06em;
+        line-height: 57px;
+        text-align: center;
+        color: #82b011;
+
+        span {
+          color: #686868;
+        }
+      }
+    }
+
+    .produto {
+      text-align: center;
+
+      p {
+        color: #82b011;
+        text-transform: uppercase;
+      }
+    }
+
+    .dados-cesta {
+      margin-top: 50px;
+      .preco {
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+
+        @media screen and (max-width: 768px) {
+          flex-direction: column;
+        }
+
+        .desc {
+          width: 40%;
+          font-family: "Work Sans";
+          font-weight: 500;
+          font-size: 40px;
+          letter-spacing: 0.06em;
+          line-height: 57px;
+          text-align: left;
+          color: #82b011;
+
+          @media screen and (max-width: 768px) {
+            width: 100%;
+          }
+
+          span {
+            color: #686868;
+            display: block;
+            font-weight: bold;
+          }
+        }
+
+        .preco {
+          display: flex;
+          flex-direction: column;
+
+          .valor {
+            font-weight: bold;
+            font-style: italic;
+            font-size: 49px;
+            letter-spacing: 0.06em;
+            line-height: 57px;
+            text-align: center;
+            color: #82b011;
+
+            strong {
+              color: #686868;
+            }
+          }
+        }
+      }
+      .btns {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .btn {
+          width: 309px;
+          height: 64px;
+          border-radius: 9px;
+          background: #a7d82f;
+          color: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-decoration: none;
+          font-weight: bold;
+          margin-bottom: 40px;
+          margin: 20px;
+          font-size: 16px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  .list {
+    ul {
+      list-style: none;
+
+      li {
+          display: flex;
+          align-items: center;
+          margin-bottom: 25px;
+          svg{
+              color: #a7d82f!important;
+              font-size: 22px;;
+              margin-right: 15px;
+          }
+          font-size: 18px;
+      }
+    }
+  }
+
+  footer#Footer {
+    margin-top: 50px;
+    background: url("../img/footer.jpg") no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+    color: #fff;
+    text-align: center;
+  }
+}

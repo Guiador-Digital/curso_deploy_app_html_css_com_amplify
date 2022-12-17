@@ -1,0 +1,208 @@
+@import url("../css/bootstrap-grid.min.css");
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.row-vertical-center {
+  align-items: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Work Sans";
+  font-weight: normal;
+  font-size: 17px;
+  letter-spacing: 0.06em;
+  line-height: 26px;
+  color: #535353;
+  margin: 0px;
+}
+body header#Header {
+  padding: 20px 0px;
+}
+body section#Banner {
+  background: #f4f4f4;
+  padding: 50px 0px;
+}
+body section#Banner h2 {
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 0.06em;
+  line-height: 57px;
+  text-align: left;
+  color: #82b011;
+  width: 80%;
+}
+body section#Banner h2 span {
+  color: #686868;
+}
+body section#Banner .btn {
+  width: 309px;
+  height: 64px;
+  border-radius: 9px;
+  background: #a7d82f;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+body section#Banner img {
+  max-width: 100%;
+}
+body section#Info {
+  padding: 50px 0px;
+}
+body section#Info .item-info {
+  display: flex;
+}
+body section#Info .item-info .icon {
+  width: 70px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+body section#Info .item-info .detalhes h2 {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.12em;
+  line-height: 30px;
+  text-align: left;
+  color: #1b1b1b;
+}
+body section#Info .item-info .detalhes p {
+  color: #535353;
+}
+body section#Produtos .title {
+  width: 63%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+  body section#Produtos .title {
+    width: 100%;
+  }
+}
+body section#Produtos .title h2 {
+  font-family: "Work Sans";
+  font-weight: 500;
+  font-size: 40px;
+  letter-spacing: 0.06em;
+  line-height: 57px;
+  text-align: center;
+  color: #82b011;
+}
+body section#Produtos .title h2 span {
+  color: #686868;
+}
+body section#Produtos .produto {
+  text-align: center;
+}
+body section#Produtos .produto p {
+  color: #82b011;
+  text-transform: uppercase;
+}
+body section#Produtos .dados-cesta {
+  margin-top: 50px;
+}
+body section#Produtos .dados-cesta .preco {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  body section#Produtos .dados-cesta .preco {
+    flex-direction: column;
+  }
+}
+body section#Produtos .dados-cesta .preco .desc {
+  width: 40%;
+  font-family: "Work Sans";
+  font-weight: 500;
+  font-size: 40px;
+  letter-spacing: 0.06em;
+  line-height: 57px;
+  text-align: left;
+  color: #82b011;
+}
+@media screen and (max-width: 768px) {
+  body section#Produtos .dados-cesta .preco .desc {
+    width: 100%;
+  }
+}
+body section#Produtos .dados-cesta .preco .desc span {
+  color: #686868;
+  display: block;
+  font-weight: bold;
+}
+body section#Produtos .dados-cesta .preco .preco {
+  display: flex;
+  flex-direction: column;
+}
+body section#Produtos .dados-cesta .preco .preco .valor {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 49px;
+  letter-spacing: 0.06em;
+  line-height: 57px;
+  text-align: center;
+  color: #82b011;
+}
+body section#Produtos .dados-cesta .preco .preco .valor strong {
+  color: #686868;
+}
+body section#Produtos .dados-cesta .btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+body section#Produtos .dados-cesta .btns .btn {
+  width: 309px;
+  height: 64px;
+  border-radius: 9px;
+  background: #a7d82f;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 40px;
+  margin: 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+body .list ul {
+  list-style: none;
+}
+body .list ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+body .list ul li svg {
+  color: #a7d82f !important;
+  font-size: 22px;
+  margin-right: 15px;
+}
+body footer#Footer {
+  margin-top: 50px;
+  background: url("../img/footer.jpg") no-repeat;
+  background-size: cover;
+  padding: 50px 0px;
+  color: #fff;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
